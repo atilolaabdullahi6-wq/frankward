@@ -91,11 +91,11 @@ btn.addEventListener("mouseover",function(){
       name.textContent = "product"
       document.body.appendChild(name)
 
-      const input = document.querySelector("input");
+      const button = document.querySelector("button");
 
       btn.addEventListener("click",function(){
-        const inputValue = input.value;
-        if (inputValue == mike) {
+        const buttonValue = button.value;
+        if (username === "appclickict" && password === "appclick1234") {
             alert("user login")
         } else {
             alert("Wrong input")
